@@ -7,6 +7,7 @@ import time
 from streamlit_extras.streaming_write import write
 import random
 
+
 # Hugging Face API setup
 API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
 API_TOKEN = st.secrets["secrets"]['API_TOKEN']  # Replace with your actual token

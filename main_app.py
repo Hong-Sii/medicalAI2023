@@ -12,6 +12,7 @@ ADMIN_PASSWORD = "password"
 def is_admin(username, password):
     return username == ADMIN_USERNAME and password == ADMIN_PASSWORD
 
+
 def login_page():
     st.title("Login")
     username = st.text_input("Username")
